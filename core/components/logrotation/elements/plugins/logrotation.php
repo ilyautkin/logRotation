@@ -8,7 +8,7 @@ switch ($modx->event->name) {
         
         $log_file = $filepath . $filename;
         
-        if (filesize($log_file) > $max_size) {
+        if (@filesize($log_file) > $max_size) {
             $offset = -1 * $max_size;
             
             $read = fopen($log_file, 'r');
