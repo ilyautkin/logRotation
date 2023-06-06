@@ -1,5 +1,9 @@
 Changelog for logRotation.
 
+1.0.2-beta
+==============
+- Check existing log file
+
 1.0.1-beta
 ==============
 - Hide warning for file_size function

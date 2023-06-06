@@ -11,7 +11,7 @@ if (!defined('MODX_CORE_PATH')) {
 return [
     'name' => 'logRotation',
     'name_lower' => 'logrotation',
-    'version' => '1.0.1',
+    'version' => '1.0.2',
     'release' => 'beta',
     // Install package to site right after build
     'install' => true,
